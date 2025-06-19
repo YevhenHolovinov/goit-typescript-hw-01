@@ -4,7 +4,6 @@ export enum UserRole {
   guest = 'guest',
 }
 
-// Замініть наступний код на версію за допомогою Record
 type UserRolesStatuses = Record<UserRole, string>;
 
 const RoleDescription: UserRolesStatuses = {
