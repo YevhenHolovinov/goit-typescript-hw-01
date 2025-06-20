@@ -9,7 +9,7 @@ export enum DayOfWeek {
 }
 
 const isWeekend = (day: DayOfWeek): boolean => {
-  if (day <= 4) {
+  if (day === DayOfWeek.Monday) {
     return false;
   }
   return true;
